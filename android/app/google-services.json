@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291707127342",
+    "project_id": "pine-demo",
+    "storage_bucket": "pine-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291707127342:android:ded4d3ec7860e85c6481bf",
+        "android_client_info": {
+          "package_name": "com.example.pineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291707127342-gstkgnddbrrog62lvl8p7m7eq07te4dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRE8WjOBgeGX1fIABweQxFZ6pkhWwIp24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291707127342-gstkgnddbrrog62lvl8p7m7eq07te4dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
