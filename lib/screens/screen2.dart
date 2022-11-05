@@ -22,6 +22,9 @@ class _Screen2State extends State<Screen2> {
           } else if (snapshot.data!.size == 0) {
             return const Center(child: Text("No User data"));
           }
+          else if(snapshot.hasError){
+            return const Center(child: Text("Something went wrong please try again later"));
+          }
           return ListView(
             children: getUserData(snapshot),
           );

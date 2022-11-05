@@ -222,7 +222,9 @@ class _Screen1State extends State<Screen1> {
                     showLoader(context);
                     await addUserDetails();
                   } else {
-                    print("Unsuccessful");
+                    Fluttertoast.showToast(
+                      msg: 'Please fill all the details',
+                    );
                   }
                 },
               ),

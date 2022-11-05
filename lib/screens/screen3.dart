@@ -41,6 +41,9 @@ class _Screen3State extends State<Screen3> {
                   child: CircularProgressIndicator(),
                 );
               }
+              else if(snapshot.hasError){
+                return const Center(child: Text("Something went wrong please try again later"));
+              }
               return SingleChildScrollView(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
